@@ -1,0 +1,4 @@
+:8080 {
+    reverse_proxy * speedtest:80
+    header X-Real-IP {http.request.remote}
+}

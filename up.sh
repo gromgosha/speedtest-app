@@ -1,0 +1,1 @@
+docker-compose --compatibility -f app.compose.yml up -d
